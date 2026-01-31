@@ -129,8 +129,8 @@ router.get('/', async (req, res) => {
                             try {
                                 Sess = await sendButtons(Gifted, Gifted.user.id, {
             title: '',
-            text: 'BERA-TECH~' + b64data,
-            footer: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ*`,
+            text: 'Buddy-XTR~' + b64data,
+            footer: `> *Created by the XTR Developers*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
@@ -143,14 +143,14 @@ router.get('/', async (req, res) => {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit Bot Repo',
-                        url: 'https://github.com/mauricegift/gifted-md'
+                        url: 'https://github.com/carl24tech/Buddy-XTR'
                     })
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel',
-                        url: 'https://whatsapp.com/channel/0029Vb3hlgX5kg7G0nFggl0Y'
+                        url: 'https://whatsapp.com/channel/00293hlgX5kg7G0nFggl0Y'
                     })
                 }
             ]
